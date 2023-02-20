@@ -1,0 +1,155 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d4d9e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper {
+    width: 80%;
+    display: flex;
+}
+
+.registerLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 20px;
+    justify-content: center;
+}
+
+.registerLogo {
+    font-size: 60px;
+    font-weight: 800;
+    color: #011631;
+    margin-bottom: 10px;
+}
+
+.registerDesc {
+    font-size: 28px;
+}
+
+
+.registerRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 20px;
+    justify-content: center;
+}
+
+.registerBox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.profileImg {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.formInput {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 34px;
+    color: #333;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.registerBottomBox {
+    height: 350px;
+    padding: 5px 13px 5px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.registerInput {
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid gray;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+
+.registerButton {
+    height: 50px;
+    width: 100%;
+    background-color: #011631;
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.loginRegisterButton {
+    height: 50px;
+    width: 100%;
+    background-color: #42b72a;
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.registerTop {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.registerBottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:992px) {
+    .registerLeft {
+        display: none;
+    }
+}
